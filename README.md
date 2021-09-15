@@ -20,6 +20,12 @@
   
     - 논리형
       - boolean=1바이트 
+      
+    - boolean add       : 요소 하나를 배열에 추가
+    - int size()        : 배열에 추가된 요소 전체 개수를 반환
+    - Eget(int index)   : 배열의 index 위치에 있는 요소 값을 반환
+    - Eremove(int index): 배열이 index 위치에 있는 요고 값을 제거 그 값을 반환
+    - boolean isEmpty() : 배열이 비어 있는지 확인
 ```c
  #include<stdio.h>
  int mian(){'
