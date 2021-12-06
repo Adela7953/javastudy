@@ -13,11 +13,9 @@
       - long  = 8바이트
     - 문자형
       - char   = 2바이트
-
     - 실수형
       - float  = 4바이트
       - double = 8바이트
-  
     - 논리형
       - boolean=1바이트 
       
@@ -31,12 +29,18 @@
     - @Fuctionallnterface :함수형 인터페이스라는 정보 제공
     - @Deprecated         : 이후 버전에서 사용되지 않 수 있는 변수,메서드에 사용
     - SuppressWarnings    : 특정 경고가 나타나지 않도록 함
-```c
- #include<stdio.h>
- int mian(){'
- printf("Hello word");
- }
-```
+    
+    - 생성자 이름 = 클래스 이름 
+    - 생성자는 리턴 값이 없다
+    - 다른 생성자를 호출할 때 첫줄에 사용
+    - This : 참조변수,인스턴스 주소 저장
+    - this(),This(매개변수) : 생성자, 다른생성자 호출 할떄 사용
+    - 
+    
+    
+    
+    
+    
 
 
 
